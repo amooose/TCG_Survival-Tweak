@@ -10,7 +10,7 @@ A mod to disable the Curfew, change the Health/Energy degradation speed, and tim
 ## Configure
 * Open the config file at `TheCoinGame\BepInEx\config`
 ### Health Degradation
-The rate at which your health decreases, 0.06 is the default (Lower = slower)
+* The rate at which your health decreases, 0.06 is the default (Lower = slower)
 
 ### Energy Degradation Max
 * The max rate at which your health decreases, 0.06 is the default max. (Lower = slower)  
