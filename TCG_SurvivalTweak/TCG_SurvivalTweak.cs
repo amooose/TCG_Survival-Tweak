@@ -22,7 +22,6 @@ namespace TCG_SurvivalTweak
         public const string GUID = "an0nymooose_TCG_SurvivalTweak";
         public const string VERSION = "1.0.0.0";
         public const float DEGRADE_NORMAL = .06f;
-        public const float DEGRADE_SLOWER = .03f;
         public const float TIME_NORMAL = .05f;
         internal readonly ManualLogSource log;
         internal readonly Harmony harmony;
@@ -48,15 +47,15 @@ namespace TCG_SurvivalTweak
                                             "Disables the curfew, return home whenever you want. (Time caps at midnight due to game code)");
             configHealthDegrade = Config.Bind("General",
                                             "Health Degradation",
-                                            DEGRADE_SLOWER,
+                                            DEGRADE_NORMAL,
                                             "The rate at which your health decreases, 0.06 is the default (Lower = slower)");
             configEnergyDegrade = Config.Bind("General",
                                 "Energy Degradation Max",
-                                DEGRADE_SLOWER,
+                                DEGRADE_NORMAL,
                                 "The max rate at which your health decreases, 0.06 is the default max. Energy degrades from 0.005 to 0.06 depending on what you consume. (Lower = slower)");
             configTimeRate = Config.Bind("General",
                     "Time Passing Rate",
-                    0.05f,
+                    TIME_NORMAL,
                     "The rate at which time passes, 0.05 is the default (Lower = faster)");
 
         }

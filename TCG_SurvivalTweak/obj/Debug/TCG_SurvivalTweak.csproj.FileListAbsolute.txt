@@ -107,3 +107,4 @@ C:\Users\Dylan\source\repos\TCG_SurvivalTweak\TCG_SurvivalTweak\obj\Debug\TCG_Su
 C:\Users\Dylan\source\repos\TCG_SurvivalTweak\TCG_SurvivalTweak\obj\Debug\TCG_SurvivalTweak.pdb
 C:\Users\Dylan\source\repos\TCG_SurvivalTweak\TCG_SurvivalTweak\bin\Debug\System.Net.Http.dll
 C:\Users\Dylan\source\repos\TCG_SurvivalTweak\TCG_SurvivalTweak\bin\Debug\System.Net.Http.xml
+C:\Users\Dylan\source\repos\TCG_SurvivalTweak\TCG_SurvivalTweak\obj\Debug\TCG_SurvivalTweak.csprojAssemblyReference.cache
