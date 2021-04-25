@@ -25,6 +25,7 @@ You may set the cap to any value, even below 0.005.
 
 ## TheCoinGame Modding Tips:
 * You wont find much help within Assembly-CSharp.dll, as this game uses PlayMaker, which utilizes Finite State Machines for scripting.
-* [HollowKnightFSMView](https://github.com/nesrak1/HollowKnightFSMView) is useful for visualing the FSMs. I've included the needed cldb.dat for the 2018.2.21 version of unity in the cldb folder of this repo.
+* [HollowKnightFSMView](https://github.com/nesrak1/HollowKnightFSMView) is useful for visualing the FSMs.  
+I've included the needed cldb.dat for the 2018.2.21 version of unity in the cldb folder of this repo.
 * Compile with Net Framework 4.
 
