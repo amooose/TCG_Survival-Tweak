@@ -4,7 +4,7 @@ A mod to disable the Curfew, change the Health/Energy degradation speed, and tim
 
 ## Install
 * [BepInEx Install Required](https://github.com/BepInEx/BepInEx/releases). Install to the root directory of TheCoinGame.
-* Download the latest release of TCG_Survival-Tweak.zip and place the BepInEx folder in the root directory of TheCoinGame  
+* Download the latest release of [TCG_Survival-Tweak.zip](https://github.com/amooose/TCG_Survival-Tweak/releases/) and place the BepInEx folder in the root directory of TheCoinGame  
 (There should already be a BepinEx folder there since you installed it), merge the folders.
 
 ## Configure
