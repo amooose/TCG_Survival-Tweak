@@ -97,9 +97,8 @@ namespace TCG_SurvivalTweak
                     if (configEnergyDegrade.Value != DEGRADE_NORMAL)
                     {
                         PlayMakerFSM EnergyTimer = GameObject.Find("ENERGY CNTRL").GetComponent<PlayMakerFSM>();
-                        //Access float clamp via reflection
                         FsmStateAction clampState = EnergyTimer.Fsm.States[1].Actions[10];
-                        //Force the float to stop changing by making the
+                        //Access float clamp via reflection, Force the float to stop changing by setting maxLimit
                         FsmFloat clampMax = (FsmFloat)clampState.GetType().GetField("maxValue").GetValue(clampState);
                         //FsmFloat clampMin = (FsmFloat)clampState.GetType().GetField("minValue").GetValue(clampState);
                         clampMax.SafeAssign(configEnergyDegrade.Value);
